@@ -7,7 +7,7 @@ type Props = { label: string };
 
 function Button({ label }: Props): React.Node
 {
-   return <div data-testid="button" className="button-style">{label}</div>
+   return <div data-testid="button" className="button-style">Hi {label}</div>
 }
 
 export default Button;
